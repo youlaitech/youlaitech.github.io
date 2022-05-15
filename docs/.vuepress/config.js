@@ -8,12 +8,13 @@ module.exports = {
   // theme: require.resolve('../../vdoing'), // 使用本地主题
 
   title: "youlai-mall",
-  description: '有来商城官网',
+  description: '有来商城官网，覆盖全栈主流技术栈的开源商城项目',
   base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
-    ['meta', { name: 'keywords', content: 'youlai-mall,有来商城官网,有来官网,有来官方文档,youlai-mall官网,有来商城,有来文档,有来技术' }],
+    ['meta', { name: 'keywords', content: 'youlai-mall,有来商城官网,有来官方文档,有来商城,有来文档,有来技术' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+    ['meta', { name: '360-site-verification', content: 'd488ee6064664b938d6e581e592e42e8' }], // 360站点验证
 
   ],
 

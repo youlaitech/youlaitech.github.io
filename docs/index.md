@@ -109,7 +109,7 @@ postList: none
 
 ## 💎 贡献者
 
-<a href="https://github.com/youlaitech/youlai-mall/graphs/contributors"><img src="https://opencollective.com/youlai-mall/contributors.svg" /></a>
+<a href="https://github.com/youlaitech/youlai-mall/graphs/contributors"><img alt="" src="https://opencollective.com/youlai-mall/contributors.svg" /></a>
 
 <br/>
 
@@ -122,15 +122,15 @@ postList: none
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <img src="https://www.youlai.tech/files/blog/rui.jpg" class="no-zoom" style="width:120px;margin: 10px;">
+        <img  src="https://www.youlai.tech/files/blog/rui.jpg" class="no-zoom" style="width:120px;margin: 10px;"  alt="有来商城微信交流群">
         <p>微信群(添加我的微信进群)</p>
       </td>
           <td align="center" valign="middle">
-        <img src="https://www.youlai.tech/files/blog/gongzhonghao.jpg" class="no-zoom" style="width:120px;margin: 10px;">
+        <img src="https://www.youlai.tech/files/blog/gongzhonghao.jpg" class="no-zoom" style="width:120px;margin: 10px;" alt="有来技术公众号">
         <p>微信公众号</p>
       </td>
       <td align="center" valign="middle">
-        <img src="https://www.youlai.tech/files/blog/20220505142929.png" alt="群号: 631968278" class="no-zoom" style="width:120px;margin: 10px;">
+        <img src="https://www.youlai.tech/files/blog/20220505142929.png" alt="群号: 631968278" class="no-zoom" style="width:120px;margin: 10px;"  alt="有来商城QQ交流群">
         <p>QQ交流群: 631968278</p>
       </td>
     </tr>
