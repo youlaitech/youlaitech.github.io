@@ -53,7 +53,7 @@ postList: none
   textColor: '#2A3344'
 - name: mall-app
   desc: 有来商城H5移动端
-  link: https://app.youlai.tech
+  link: http://app.youlai.tech
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
 - name: vue3-element-admin
