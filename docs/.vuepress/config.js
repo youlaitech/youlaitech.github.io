@@ -71,17 +71,17 @@ module.exports = {
           {
             text: '后端',
             items: [
-              { text: 'Spring', link: 'https://baomidou.com/' },
-              { text: 'MyBatis-Plus', link: 'https://baomidou.com/' },
-              { text: 'Knife4j', link: 'https://doc.xiaominfo.com/knife4j/documentation/' }
+              { text: 'spring', link: 'https://spring.io/' },
+              { text: 'mybatis-plus', link: 'https://baomidou.com/' },
+              { text: 'knife4j', link: 'https://doc.xiaominfo.com/knife4j/documentation/' }
             ]
           },
           {
             text: '前端',
             items: [
-              { text: 'Element-Plus', link: 'https://element-plus.gitee.io/zh-CN/' },
-              { text: 'Vue3', link: 'https://v3.cn.vuejs.org/guide/introduction.html' },
-              { text: 'Vite2', link: 'https://cn.vitejs.dev/guide' }
+              { text: 'element-plus', link: 'https://element-plus.gitee.io/zh-CN/' },
+              { text: 'vue3', link: 'https://v3.cn.vuejs.org/guide/introduction.html' },
+              { text: 'vite2', link: 'https://cn.vitejs.dev/guide' }
             ]
           },
           {
