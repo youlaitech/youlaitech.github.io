@@ -64,7 +64,6 @@ module.exports = {
 
 
       { text: '问答', link: '/pages/9cc27d/' },
-      { text: '💖支持', link: '/pages/1b12ed/' },
       {
         text: '技术栈官网',
         items: [
@@ -91,6 +90,17 @@ module.exports = {
             ]
           },
 
+        ]
+      },
+
+
+      { text: '💖支持', link: '/pages/1b12ed/' },
+      {
+        text: '💛友情链接',
+        items: [
+          {
+            text: '博客园主题awescnb', link: 'https://github.com/cnbloglabs'
+          }
         ]
       },
       { text: 'Gitee', link: 'https://gitee.com/haoxr' },
