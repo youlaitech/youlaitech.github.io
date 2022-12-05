@@ -105,7 +105,7 @@ module.exports = {
       },
       { text: 'Gitee', link: 'https://gitee.com/haoxr' },
     ],
-    sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+    sidebarDepth: 3, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: 'https://www.youlai.tech/files/blog/logo_normal.png', // 导航栏logo
     repo: 'youlaitech/youlai-mall', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
