@@ -32,15 +32,15 @@ module.exports = {
           { text: '开发规范', link: '/pages/0d40fe/' }
         ]
       },
-      {
+  /*     {
         text: '在线预览',
         items: [
-          { text: 'mall-admin-web', link: 'https://admin.youlai.tech/' },
+          { text: 'mall-admin', link: 'https://admin.youlai.tech/' },
           { text: 'mall-app', link: 'http://app.youlai.tech/' },
-          { text: 'vue3-element-admin', link: 'http://vue3.youlai.tech/' },
+          { text: 'vue3-element-admin', link: 'https://vue3.youlai.tech/' },
           { text: 'knife4j接口文档', link: 'https://api.youlai.tech/doc.html' },
         ]
-      },
+      }, */
       {
         text: '生态',
         items: [
@@ -48,9 +48,8 @@ module.exports = {
             text: '有来商城',
             items: [
               { text: 'youlai-mall', link: 'https://gitee.com/youlaitech/youlai-mall' },
-              { text: 'mall-admin-web', link: 'https://gitee.com/youlaiorg/mall-admin-web' },
+              { text: 'mall-admin', link: 'https://gitee.com/youlaiorg/mall-admin-web' },
               { text: 'mall-app', link: 'https://gitee.com/youlaiorg/mall-app' },
-              { text: 'mall-pc', link: 'https://gitee.com/youlaiorg/mall-pc' },
             ]
           },
           {
@@ -63,7 +62,7 @@ module.exports = {
       },
 
 
-      { text: '问答', link: '/pages/9cc27d/' },
+      /* { text: '问答', link: '/pages/9cc27d/' }, */
       {
         text: '技术栈官网',
         items: [
@@ -94,11 +93,13 @@ module.exports = {
       },
 
 
-      { text: '💖支持', link: '/pages/1b12ed/' },
+     /*  { text: '💖支持', link: '/pages/1b12ed/' }, */
       {
         text: '💛友情链接',
         items: [
           {
+            text: 'April的记录小屋', link: 'https://april-tong.com'
+          },{
             text: '博客园主题awescnb', link: 'https://github.com/cnbloglabs'
           }
         ]
@@ -158,7 +159,7 @@ module.exports = {
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/hxrui'
+          link: 'https://github.com/haoxianrui'
         },
         {
           iconClass: 'icon-gitee',
@@ -173,7 +174,7 @@ module.exports = {
         {
           iconClass: 'icon-juejin',
           title: '掘金',
-          link: 'https://www.cnblogs.com/haoxianrui/'
+          link: 'https://juejin.cn/user/4187394044331261'
         },
         {
           iconClass: 'icon-zhihu',
@@ -183,12 +184,12 @@ module.exports = {
         {
           iconClass: 'icon-csdn',
           title: 'CSDN',
-          link: 'https://www.cnblogs.com/haoxianrui/'
+          link: 'https://blog.csdn.net/u013737132'
         }
       ]
     },
     footer: { // 页脚信息
-      createYear: 2020 - 2022, // 博客创建年份
+      createYear: 2020 - 2023, // 博客创建年份
       copyrightInfo: '有来技术团队', // 博客版权信息，支持a标签
     },
     htmlModules,
@@ -256,8 +257,8 @@ module.exports = {
           clientID: '8e9b75ae4c1dde9551af',
           clientSecret: '9ace8795ad0ba54e53409cf653fee69dc366ced0',
           repo: 'wiki-comments', // GitHub 仓库
-          owner: 'hxrui', // GitHub仓库所有者
-          admin: ['hxrui'], // 对仓库有写权限的人
+          owner: 'haoxianrui', // GitHub仓库所有者
+          admin: ['haoxianrui'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50

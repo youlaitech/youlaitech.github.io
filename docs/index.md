@@ -58,7 +58,7 @@ postList: none
   textColor: '#2A3344'
 - name: vue3-element-admin
   desc: 基于vue-element-admin升级的Vue3版本
-  link: http://vue3.youlai.tech
+  link: https://vue3.youlai.tech
   bgColor: '#f1f1f1'
   textColor: '#2A3344'
 ```
