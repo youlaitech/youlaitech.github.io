@@ -5,12 +5,12 @@ export default navbar(
         { text: '首页', link: '/' },
         {
           text: '指南',
-          link: '/guide/',
+          prefix: "/指南",
           children: [
-            { text: '项目介绍', link: '/pages/52d5c3/' },
-            { text: '项目启动', link: '/pages/793dcb/' },
-            { text: '项目部署', link: '/pages/mot3n/' },
-            { text: '开发规范', link: '/pages/0d40fe/' }
+            { text: '项目介绍', link: '项目介绍.md' },
+            { text: '项目启动', link: '项目启动' },
+            { text: '中间件', link: '中间件' },
+            { text: '开发规范', link: '开发规范' }
           ]
         },
         {
