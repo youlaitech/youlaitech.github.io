@@ -1,52 +1,38 @@
 ---
 home: true
-icon: home
-title: 项目主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
-bgImageStyle:
-  background-attachment: fixed
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: youlai
+heroImage: https://raw.gitmirror.com/youlaitech/image/main/docs/logo.png
+tagline: 🚀 有来官网，覆盖全栈主流技术栈的开源项目
+actionText: 开始使用 →
+actionLink: /pages/52d5c3/
+bannerBg: none
 actions:
-  - text: 使用指南
-    icon: lightbulb
-    link: ./demo/
+  - text: 快速上手
+    link: ./get-started/
+    icon: signs-post
     type: primary
 
-  - text: 文档
+  - text: 指南
+    icon: lightbulb
     link: ./guide/
 
-features:
-  - title: 简洁易用
-    icon: light
-    details:
-      基于 vue-element-admin 升级的 Vue3 版本，无过渡封装 ，易上手。
+  - text: 案例
+    icon: star
+    link: ./demo/
+highlights:
+  - header:
+    features:
+        - title: 极速启动
+          details: 极速启动模式，一分钟之内可启动完成，快速上手微服务
+        - title: 主流技术栈
+          details: Spring Cloud & Alibaba、vue3、uni-app、k8s等主流技术栈
+        - title: 全栈开源
+          details: 无过度自定义封装逻辑，方便学习理解和二次开发，持续更新...
 
-  - title: 数据交互
-    icon: free
-    details:
-      同时支持本地 `Mock` 和线上接口，配套 Java
-      后端源码和在线接口文档。
-  - title: 易于部署
-    icon: strong
-    details: 多种部署部署方式和存储服务支持
 
-  - title: 登录支持
-    icon: register
-    details: 在允许匿名评论的基础上，支持账号注册，保持身份
 
-copyright: false
-footer:
-  使用 <a href="https://theme-hope.vuejs.press/zh/"
-  target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 ©
-  2019-present Mr.Hope
+postList: none
 ---
-
-这是项目主页的案例。你可以在这里放置你的主体内容。
-
-想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
-
-配置项的相关说明详见
-[项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home/)。
+<p align="center">
+  <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
+</p>

@@ -1,15 +1,14 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 export default defineUserConfig({
-  base: "/",
-
-  lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
-
-  theme,
-
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
+    base: "/",
+    lang: "zh-CN",
+    title: "youlai",
+    description: '有来官网，覆盖全栈主流技术栈的开源项目',
+    theme,
+    plugins: [
+        docsearchPlugin({
+        }),
+    ],
 });
