@@ -2,7 +2,7 @@
 home: true
 heroText: youlai
 title: 首页
-heroImage: https://raw.gitmirror.com/youlaitech/image/main/docs/logo.png
+heroImage: ./.vuepress/public/logo.png
 tagline: 🚀 有来官网，覆盖全栈主流技术栈的开源项目
 actionText: 开始使用 →
 actionLink: /pages/52d5c3/

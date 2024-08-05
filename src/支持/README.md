@@ -1,10 +1,9 @@
 ---
-title: 开发规范
-order: 1
+title: 支持
 index: false
 icon: laptop-code
 category:
-  - 开发规范
+  - 使用指南
 ---
 
 <Catalog />

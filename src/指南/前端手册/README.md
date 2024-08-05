@@ -1,10 +1,10 @@
 ---
-title: 快速上手
-order: 3
+title: 后端手册
+order: 2
 index: false
 icon: laptop-code
 category:
-  - 快速上手
+  - 后端手册
 ---
 
 <Catalog />
