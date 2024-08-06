@@ -3,11 +3,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 export default hopeTheme({
     author: {
-        name: '郝先瑞',
-        url: 'https://gitee.com/haoxr'
+        name: '有来技术',
+        url: 'https://gitee.com/youlaiorg'
     },
     logo: "/logo.png",
-    repo: "https://gitee.com/youlaiorg/youlai-boot.git",
+    repo: "https://gitee.com/youlaiorg",
     docsDir: "src",
     navbarLayout: {
         start: ["Brand"],

@@ -2,38 +2,42 @@
 home: true
 heroText: youlai
 title: 首页
-heroImage: ./.vuepress/public/logo.png
-tagline: 🚀 有来官网，覆盖全栈主流技术栈的开源项目
+heroImage: https://raw.gitmirror.com/youlaitech/image/main/docs/logo_200x200.png
+tagline: 🚀 有来技术，专注于为开发者提供高效、易用的开源软件和解决方案。
 actionText: 开始使用 →
 actionLink: /pages/52d5c3/
 bannerBg: none
 actions:
   - text: 快速上手
-    link: ./get-started/
+    link: ./指南/快速上手/README.md
     icon: signs-post
     type: primary
-
-  - text: 指南
-    icon: lightbulb
-    link: ./guide/
-
   - text: 案例
     icon: star
     link: ./demo/
-highlights:
-  - header:
-    features:
-        - title: 极速启动
-          details: 极速启动模式，一分钟之内可启动完成，快速上手微服务
-        - title: 主流技术栈
-          details: Spring Cloud & Alibaba、vue3、uni-app、k8s等主流技术栈
-        - title: 全栈开源
-          details: 无过度自定义封装逻辑，方便学习理解和二次开发，持续更新...
+
+features:
+  - title: 简洁易用
+    icon: light
+    details:
+      基于 vue-element-admin 升级的 Vue3 版本，无过渡封装 ，易上手。
+
+  - title: 数据交互
+    icon: free
+    details:
+      同时支持本地 Mock 和线上接口，配套 Java
+      后端源码和在线接口文档。
+  - title: 易于部署
+    icon: strong
+    details: 多种部署部署方式和存储服务支持
+
+  - title: 登录支持
+    icon: register
+    details: 在允许匿名评论的基础上，支持账号注册，保持身份
 
 
 
-postList: none
+copyright: false
+footer:
+   版权所有 © 2019-present 有来技术
 ---
-<p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
-</p>
