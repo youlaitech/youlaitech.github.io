@@ -3,6 +3,7 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   "/指南/",
+  "/微服务商城/",
   {
     text: "在线预览",
     children: [

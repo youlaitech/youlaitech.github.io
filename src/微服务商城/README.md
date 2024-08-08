@@ -1,5 +1,5 @@
 ---
-title: 指南
+title: 微服务商城
 icon: lightbulb
 index: false
 category:
@@ -8,13 +8,10 @@ tag:
   - 介绍
 ---
 
-
-
 ## 项目介绍
 
 vue3-element-admin 是基于 Vue3 + Vite5+ TypeScript5 + Element-Plus + Pinia 等主流技术栈构建的免费开源的中后台管理的前端模板（配套Java 后端源码）。
 
-**在线预览：** [https://vue3.youlai.tech/](https://vue3.youlai.tech/)
 ::: tip
 
 - 如果你对 vue3-element-admin 框架完全陌生，请从我们的 [快速上手](../get-started/README.md) 开始。
@@ -22,7 +19,6 @@ vue3-element-admin 是基于 Vue3 + Vite5+ TypeScript5 + Element-Plus + Pinia �
 - 如果你熟悉上述内容，请[从这里开始](./intro/intro.md)。
 
 :::
-
 
 
 ## 项目特色
