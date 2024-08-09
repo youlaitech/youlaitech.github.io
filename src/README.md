@@ -1,6 +1,6 @@
 ---
 home: true
-title: 功能项目主页
+title: 首页
 icon: home
 heroImage: /logo.png
 heroText: youlai
