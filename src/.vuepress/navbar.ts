@@ -2,8 +2,9 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/指南/",
-  "/开源商城/",
+  "/前后端模板/",
+  "/微服务商城/",
+  "/单体商城/",
   {
     text: "在线预览",
     children: [
@@ -15,7 +16,7 @@ export default navbar([
 
 
   {
-    text: "生态",
+    text: "开源生态",
     children: [
       {
         text: "前后端分离模板",
