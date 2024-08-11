@@ -2,13 +2,7 @@
 title: 功能组件
 icon: leaf
 dir:
-  collapsible: false
   order: 4
-  link: true
-category:
-  - Markdown
-tag:
-  - 语法
-  - Markdown
+  expanded: true
+  collapsible: false
 ---
-

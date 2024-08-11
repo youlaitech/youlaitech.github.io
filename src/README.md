@@ -7,17 +7,17 @@ heroText: youlai
 tagline: 🚀专注于快速构建和高效开发的应用解决方案
 actions:
   - text: 快速上手
-    link: /zh/get-started/
+    link: /前后端模板/README.md
     icon: signs-post
     type: primary
 
   - text: 指南
     icon: lightbulb
-    link: /指南/README.md
+    link: /前后端模板/README.md
 
   - text: 案例
     icon: star
-    link: /zh/demo/
+    link: /前后端模板/README.md
 
 features:
   - title: vue3-element-admin

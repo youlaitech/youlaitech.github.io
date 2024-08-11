@@ -4,6 +4,7 @@ index: false
 dir:
   order: 1
   expanded: true
+  collapsible: false
 ---
 
 <Catalog />
