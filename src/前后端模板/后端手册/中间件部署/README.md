@@ -1,9 +1,9 @@
 ---
-title: 功能插件
+title: 中间件安装
 icon: leaf
 dir:
   collapsible: true
-  order: 4
+  order: 5
   link: true
 category:
   - Markdown
