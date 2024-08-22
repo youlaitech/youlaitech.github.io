@@ -1,5 +1,5 @@
 ---
-title: 中间件安装
+title: 中间件部署
 icon: leaf
 dir:
   collapsible: true

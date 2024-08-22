@@ -11,7 +11,7 @@ tag:
 ## 实现原理
 项目集成[vite-plugin-mock-dev-server](https://vite-plugin-mock-dev-server.netlify.app/guide/usage)
 ## 使用方法
-1. 打开mack服务
+1. 打开mock服务
    ```bash
    配置文件:.env.development
    VITE_MOCK_DEV_SERVER = true
