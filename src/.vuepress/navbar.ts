@@ -51,7 +51,7 @@ export default navbar([
   
     ],
   },
-  { text: "💖支持", link: "/支持/README.md" },
+  { text: "💖支持", link: "/support/README.md" },
   { text: "Gitee", link: "https://gitee.com/youlaiorg" },
   { text: "Github", link: "https://github.com/youlaitech" },
 ]);
