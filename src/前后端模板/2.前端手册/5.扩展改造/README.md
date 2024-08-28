@@ -1,10 +1,10 @@
 ---
-title: 高级扩展
+title: 扩展改造
 icon: leaf
 dir:
+  order: 5
   collapsible: true
-  order: 6
-  link: true
+  expanded: false
 category:
   - Markdown
 tag:

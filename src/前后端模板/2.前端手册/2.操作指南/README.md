@@ -1,10 +1,10 @@
 ---
-title: 中间件部署
+title: 操作指南
 icon: leaf
 dir:
   collapsible: true
-  order: 5
-  link: true
+  expanded: false
+  order: 2
 category:
   - Markdown
 tag:

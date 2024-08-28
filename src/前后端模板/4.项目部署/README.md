@@ -1,12 +1,11 @@
 ---
-title: 前端手册
+title: 项目部署
 icon: palette
 index: false
 dir:
-  order: 2
-  collapsible: false
+  order: 3
   expanded: true
-  
+  collapsible: false
 ---
 
 <Catalog />

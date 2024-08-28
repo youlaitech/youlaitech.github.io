@@ -1,10 +1,9 @@
 ---
-title: 功能组件
+title: 中间件部署
 icon: leaf
 dir:
   collapsible: true
-  expanded: true
-  order: 4
+  order: 3
   link: true
 category:
   - Markdown
