@@ -44,4 +44,4 @@ vue3-element-admin 是基于 Vue3 + Vite5+ TypeScript5 + Element-Plus + Pinia �
 
 ## 寻求帮助
 
-如果你在使用过程中遇到了 bug，可以 [提一个 issue](https://github.com/vuepress-theme-hope/vuepress-theme-hope/issues)。如果你遇到了使用问题，可以 [开一个讨论](https://github.com/orgs/vuepress-theme-hope/discussions) 或者 [加入 QQ 群](https://jq.qq.com/?_wv=1027&k=rATJyxGK)  进行反馈。
+如果你在使用过程中遇到了 bug，可以 [提一个 issue](https://github.com/youlaitech/vue3-element-admin/issues)。如果你遇到了使用问题，可以 [加入 QQ 群](https://qm.qq.com/q/JDg4MgVHWk)  进行反馈。
