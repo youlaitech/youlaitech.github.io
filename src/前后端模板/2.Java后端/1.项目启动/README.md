@@ -43,6 +43,3 @@ JDK 17、Maven 3.6 +
    [http://localhost:8989/doc.html](http://localhost:8989/doc.html) 验
    证项目启动是否成功。
 
-```bash
-corepack enable
-```
