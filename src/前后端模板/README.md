@@ -10,8 +10,8 @@ tag:
 
 
 <div align="center">
-  <img alt="vue3-element-admin Logo" width="120" height="120" src="/assets/image/v3-logo.png">
-  <h1>vue3-element-admin</h1>
+  <img alt="vue3-element-admin Logo" width="120" height="120" src="/assets/image/vue-logo.png">
+  <h2>vue3-element-admin</h2>
 </div>
 
 
