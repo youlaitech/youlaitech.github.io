@@ -1,4 +1,3 @@
 // place your custom styles here
-.vp-hero-image{
-    max-height:12rem;
-}
+@use "vuepress-theme-hope/presets/bounce-icon";
+@use "vuepress-theme-hope/presets/shinning-feature-panel";
