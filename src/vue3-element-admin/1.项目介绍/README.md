@@ -1,11 +1,12 @@
 ---
-title: vue3-element-admin
+title: 项目介绍
 icon: palette
 index: false
 dir:
   order: 1
   collapsible: false
   expanded: true
+  link: true
 ---
 
 <div align="center">

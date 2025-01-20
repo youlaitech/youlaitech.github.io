@@ -44,7 +44,7 @@ export default hopeTheme({
     sup: true,
     tasklist: true,
     vPre: true,
-    figure: true,
+    figure: false,
     imgLazyload: true,
     imgSize: true,
     tabs: true,
@@ -53,7 +53,7 @@ export default hopeTheme({
 
   plugins: {
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard","BiliBili","VPBanner"],
     },
 
     icon: {

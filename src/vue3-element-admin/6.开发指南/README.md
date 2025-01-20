@@ -1,10 +1,10 @@
 ---
 title: 开发指南
-icon: leaf
+icon: laptop-code
 dir:
-  order: 4
-  collapsible: true
-  expanded: false
+  order: 6
+  collapsible: false
+  expanded: true
   link: true
 category:
   - Markdown

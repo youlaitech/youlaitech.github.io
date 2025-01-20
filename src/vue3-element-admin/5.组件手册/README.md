@@ -1,10 +1,10 @@
 ---
 title: 组件文档
-icon: leaf
+icon: boxes-stacked
 dir:
-  order: 3
-  collapsible: true
-  expanded: false
+  order: 5
+  collapsible: false
+  expanded: true
   link: true
 category:
   - Markdown

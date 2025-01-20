@@ -1,5 +1,5 @@
 ---
-title: Java后端
+title: youlai-boot
 icon: palette
 dir:
   order: 3
@@ -8,30 +8,10 @@ dir:
   link: true
 ---
 
-<!-- <Catalog /> -->
 
 <div align="center">
-   <img alt="logo" width="100" height="100" src="/assets/image/yb-logo.png">
-   <h2>youlai-boot</h2>
-   <img alt="有来技术" src="https://img.shields.io/badge/Java -17-brightgreen.svg"/>
-   <img alt="有来技术" src="https://img.shields.io/badge/SpringBoot-3.3.0-green.svg"/>
-   <a href="https://gitee.com/youlaiorg/youlai-boot" target="_blank">
-     <img alt="有来技术" src="https://gitee.com/youlaiorg/youlai-boot/badge/star.svg"/>
-   </a>     
-   <a href="https://github.com/haoxianrui" target="_blank">
-     <img alt="有来技术" src="https://img.shields.io/github/stars/haoxianrui/youlai-boot.svg?style=social&label=Stars"/>
-   </a>
-   <br/>
-   <img alt="有来技术" src="https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg"/>
-   <a href="https://gitee.com/youlaiorg" target="_blank">
-     <img alt="有来技术" src="https://img.shields.io/badge/Author-有来开源组织-orange.svg"/>
-   </a>
-</div>
-
-![](https://raw.gitmirror.com/youlaitech/image/main/docs/rainbow.png)
-
-<div align="center">
-  <a target="_blank" href="https://admin.youlai.tech/">🔍 在线预览</a> |  <a target="_blank" href="https://doc.youlai.tech/%E5%89%8D%E5%90%8E%E7%AB%AF%E6%A8%A1%E6%9D%BF/%E5%90%8E%E7%AB%AF%E6%89%8B%E5%86%8C/%E9%A1%B9%E7%9B%AE%E7%AE%80%E4%BB%8B.html">📖 阅读文档</a> | <a href="./README.en-US.md">🌐English</a>
+   <img alt="youlai-boot" width="100" height="100" src="/assets/image/youlai-logo.jpg">
+   <h3>youlai-boot</h3>
 </div>
 
 ## 项目简介

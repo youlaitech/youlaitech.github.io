@@ -2,9 +2,10 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/前后端模板/",
-  "/基础框架/",
-  "/微服务商城/",
+ {text: "前端框架", link:  "/vue3-element-admin/"},
+ {text: "后端框架", link:  "/youlai-boot/"},
+ {text: "移动端框架", link:  "/vue-uniapp-template/"},
+ {text: "微服务商城", link:  "/youlai-mall/"},
   {
     text: "链接",
     children: [

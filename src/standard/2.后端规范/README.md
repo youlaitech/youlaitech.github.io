@@ -7,21 +7,13 @@ dir:
   order: 1
   link: true
 category:
-  - Markdown
-tag:
-  - 语法
-  - Markdown
+  - 项目启动
 ---
 
-本教程将指导你如何启动
-[vue3-element-admin](https://gitee.com/youlaiorg/vue3-element-admin)
-项目
-
-<!-- more -->
 
 ## 环境准备
 
-| 环境         | 名称版本                          | 下载地址                                       |
+| 环境         | 版本                          | 下载地址                                       |
 | ------------ | :-------------------------------- | ---------------------------------------------- |
 | **开发工具** | VSCode                            | [下载](https://code.visualstudio.com/Download) |
 | **运行环境** | Node ≥18 (其中 20.6.0 版本不可用) | [下载](http://nodejs.cn/download)              |

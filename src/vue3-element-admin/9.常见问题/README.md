@@ -1,10 +1,9 @@
 ---
 title: 常见问题
-icon: leaf
+icon: clipboard-question
 dir:
-  order: 6
+  order: 9
   collapsible: false
-  expanded: false
   link: true
 category:
   - Markdown
