@@ -30,6 +30,9 @@ dir:
 
 视频教程：[Bilibili](https://www.bilibili.com/video/BV1eFUuYyEFj)
 
+<BiliBili bvid="BV1eFUuYyEFj" />
+
+
 | 项目名称 | Gitee | GitCode | Github | 
 | -------- | ----- | ------- | ------ |  
 | vue3-element-admin| [Gitee](https://gitee.com/youlaiorg/vue3-element-admin) | [GitCode](https://gitcode.net/youlaiorg/vue3-element-admin) | [Github](https://github.com/youlaiorg/vue3-element-admin) |
