@@ -1,8 +1,8 @@
 ---
-title: 使用指南
+title: 操作指南
 icon: paper-plane
 dir:
-  order: 4
+  order: 5
   collapsible: false
   expanded: true
   link: true
