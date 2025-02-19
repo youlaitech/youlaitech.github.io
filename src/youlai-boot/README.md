@@ -1,5 +1,5 @@
 ---
-title: youlai-boot
+title: 项目介绍
 icon: palette
 dir:
   order: 3
@@ -16,9 +16,7 @@ dir:
 
 ## 项目简介
 
-基于 JDK 17、Spring Boot 3、Spring Security
-6、JWT、Redis、Mybatis-Plus、Knife4j、Vue 3、Element-Plus 构建的前后端
-分离单体权限管理系统。
+[youlai-boot](https://gitee.com/youlaiorg/youlai-boot)基于 JDK 17、Spring Boot 3、Spring Security6、JWT、Redis、Mybatis-Plus、Knife4j、Vue 3、Element-Plus 构建的前后端分离单体权限管理系统。
 
 ## 项目特色
 
@@ -36,3 +34,28 @@ dir:
 
 - **📘 接口文档**: 自动生成接口文档，支持在线调试，提高开发效率。
 
+
+## 项目地址
+
+在线演示：[https://vue.youlai.tech](https://vue.youlai.tech)
+
+文档地址：[CSDN](https://youlai.blog.csdn.net/article/details/145178880) | [稀土掘金](https://juejin.cn/user/4187394044331261/posts)  ︱ [博客园](https://www.cnblogs.com/haoxianrui/p/18683115) 
+
+视频教程：[Bilibili](https://www.bilibili.com/video/BV1eFUuYyEFj)
+
+<BiliBili bvid="BV1eFUuYyEFj" />
+
+
+| 项目名称 | Gitee | GitCode | Github | 
+| -------- | ----- | ------- | ------ |  
+| Java 后端 | [youlai-boot](https://gitee.com/youlaiorg/youlai-boot) | [youlai-boot](https://gitcode.com/youlai/youlai-boot) | [youlai-boot](https://github.com/haoxianrui/youlai-boot) | 
+| 前端| [vue3-element-admin](https://gitee.com/youlaiorg/vue3-element-admin) | [vue3-element-admin](https://gitcode.com/vue3-element-admin) | [vue3-element-admin](https://github.com/youlaitech/vue3-element-admin) |
+| 移动端 | [vue-uniapp-template](https://gitee.com/youlaiorg/vue-uniapp-template) | [vue-uniapp-template](https://gitcode.com/youlaiorg/vue-uniapp-template) | [vue-uniapp-template](https://github.com/youlaitech/vue-uniapp-template) | 
+
+## 项目截图
+
+![](https://www.youlai.tech/storage/blog/20250219181041.png)
+
+## 问题反馈
+
+如果在使用过程中遇到问题或 bug，请[提交 issue]https://gitee.com/youlaiorg/youlai-boot/issues)。如有使用上的疑问，可以通过微信(haoxianrui)或[加入交流群](../about/README.md)进行反馈。

@@ -7,7 +7,7 @@ heroText: 有来开源组织
 tagline: 🚀专注构建高效开发应用解决方案的开源社区
 actions:
   - text: 开发规范
-    link: /前后端模板/README.md
+    link: /standard/README.md
     icon: signs-post
     type: primary
 

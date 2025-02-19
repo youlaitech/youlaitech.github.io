@@ -1,11 +1,11 @@
 ---
-title: vue3-element-admin
+title: 项目介绍
 icon: palette
-index: false
 dir:
   order: 1
   collapsible: false
   expanded: true
+  link: true
 ---
 
 <div align="center">
@@ -35,9 +35,10 @@ dir:
 
 | 项目名称 | Gitee | GitCode | Github | 
 | -------- | ----- | ------- | ------ |  
-| vue3-element-admin| [Gitee](https://gitee.com/youlaiorg/vue3-element-admin) | [GitCode](https://gitcode.net/youlaiorg/vue3-element-admin) | [Github](https://github.com/youlaiorg/vue3-element-admin) |
-| Java 后端 | [Gitee](https://gitee.com/youlaiorg/youlai-boot) | [GitCode](https://gitcode.net/youlaiorg/youlai-boot) | [Github](https://github.com/youlaiorg/youlai-boot) | 
-| Node 后端 | [Gitee](https://gitee.com/youlaiorg/youlai-boot) | [GitCode](https://gitcode.net/youlaiorg/youlai-boot) | [Github](https://github.com/youlaiorg/youlai-boot) | 
+| vue3-element-admin| [Gitee](https://gitee.com/youlaiorg/vue3-element-admin) | [GitCode](https://gitcode.com/youlai/vue3-element-admin) | [Github](https://github.com/youlaitech/vue3-element-admin) |
+| Java 后端 | [youlai-boot](https://gitee.com/youlaiorg/youlai-boot) | [youlai-boot](https://gitcode.com/youlai/youlai-boot) | [youlai-boot](https://github.com/youlaitech/youlai-boot) | 
+| Node 后端 | [youlai-nest](https://gitee.com/youlaiorg/youlai-nest) | [youlai-nest](https://gitcode.com/youlai/youlai-nest) | [youlai-nest](https://github.com/youlaitech/youlai-boot) | 
+| 移动端 | [vue-uniapp-template](https://gitee.com/youlaiorg/vue-uniapp-template) | [vue-uniapp-template](https://gitcode.com/youlai/vue-uniapp-template) | [vue-uniapp-template](https://github.com/youlaitech/vue-uniapp-template) | 
 
 
 ## 项目截图
