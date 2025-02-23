@@ -27,29 +27,29 @@ features:
   - title: vue-uniapp-template
     details:
       <span style="font-weight:bold;color:#165DEF">移动端框架：</span>基于 Uni-App、Vue3 和 TypeScript 构建的灵活跨平台移动端模板，使用 VSCode 和 CLI 高效开发模式。
-    link: /zh/guide/feature/comment.html
+    link: /vue-uniapp-template/
   - title: youlai-nest
     details:
       <span style="font-weight:bold;color:#165DEF">Node后端框架：</span>基于 Node、Nest 和 TypeScript 构建的 RBAC 权限管理后端，前端全栈开发首选。
-    link: /zh/guide/layout/
+    link: /youlai-nest/
 
   - title: youlai-cloud
     details:
       <span style="font-weight:bold;color:#00B42A">微服务框架：</span>基于 Java、Spring Boot 3、Spring Cloud & Alibaba、SAS 构建的微服务解决方案。
-    link: /zh/guide/feature/page-info.html
+    link: /youlai-cloud/
 
   - title: youlai-mall
     details:
       <span style="font-weight:bold;color:#FF7D00">微服务商城：</span>基于 vue3-element-admin、youlai-cloud、uniapp-nutui-template 构建的微服务商城
-    link: /zh/guide/feature/page-info.html
+    link: /youlai-mall/
 
   - title: mall-admin
     details:  <span style="font-weight:bold;color:#FF7D00">商城管理前端：</span>基于 vue3-element-admin 模板框架开发的 youlai-mall 商城管理系统
-    link: /zh/guide/blog/intro.html
+    link: /mall-admin/
 
   - title: mall-app
     details: <span style="font-weight:bold;color:#FF7D00">商城移动端：</span>youlai-mall 微信小程序/H5/Android/iOS 移动应用端。
-    link: /zh/guide/interface/theme-color.html
+    link: /mall-app/
 
 copyright: false
 footer: MIT Licensed | Copyright © 2020-present 有来技术

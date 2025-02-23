@@ -1,18 +1,11 @@
 ---
 title: 常见问题
-icon: leaf
+icon: list
 dir:
-  order: 6
+  order: 9 
   collapsible: false
   expanded: false
   link: true
 category:
-  - Markdown
-tag:
-  - 语法
-  - Markdown
+  - 常见问题
 ---
-
-## 切换菜单白屏
-
-1.  检查视图组件是否只有一个根元素(不能包含注释)
