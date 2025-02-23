@@ -2,7 +2,7 @@
 title: 组件文档
 icon: boxes-stacked
 dir:
-  order: 5
+  order: 3
   collapsible: false
   expanded: true
   link: true

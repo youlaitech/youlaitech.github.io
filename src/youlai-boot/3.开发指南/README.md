@@ -1,15 +1,17 @@
 ---
 title: 开发指南
-icon: leaf
+icon: paper-plane
 dir:
-  collapsible: true
-  order: 4
+  order: 3
+  collapsible: false
+  expanded: true
   link: true
 category:
-  - 文档
-tag:
-  - 接口
-  - 数据库
+  - 用户指南
 ---
 
-<Catalog />
+
+## 目录
+
+### 1. [代码生成](1.代码生成.md)
+### 2. [修改包名](2.修改包名.md)

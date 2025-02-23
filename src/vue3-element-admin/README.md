@@ -51,6 +51,5 @@ dir:
 ![](https://www.youlai.tech/storage/blog/2025/01/18/20250118183539.png)
 
 ## 问题反馈
-
-如果在使用过程中遇到问题或 bug，请[提交 issue](https://gitee.com/youlaiorg/vue3-element-admin/issues)。如有使用上的疑问，可以通过微信(haoxianrui)或[加入交流群](../about/README.md)进行反馈。
-                                                                                                                                                                                                                                                                                                              
+                                                                                 
+如在使用中遇到问题或发现 bug，建议通过[提交 issue](https://gitee.com/youlaiorg/vue3-element-admin/issues)反馈，或通过微信（haoxianrui）及[加入交流群](../about/README.md)联系我们。                                                                                                                                                                                                                                                                                                              

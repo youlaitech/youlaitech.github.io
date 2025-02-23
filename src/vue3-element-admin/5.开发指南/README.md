@@ -2,7 +2,7 @@
 title: 开发指南
 icon: laptop-code
 dir:
-  order: 6
+  order: 5
   collapsible: false
   expanded: true
   link: true

@@ -2,7 +2,7 @@
 title: 项目配置
 icon: screwdriver-wrench
 dir:
-  order: 3
+  order: 2
   collapsible: false
   link: true
 category:

@@ -1,13 +1,13 @@
 ---
-title: 操作指南
+title: 用户指南
 icon: paper-plane
 dir:
-  order: 5
+  order: 4
   collapsible: false
   expanded: true
   link: true
 category:
-  - 操作指南
+  - 用户指南
 ---
 
 

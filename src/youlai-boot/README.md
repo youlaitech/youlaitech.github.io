@@ -23,8 +23,7 @@ dir:
 - **🚀 开发框架**: 使用 Spring Boot 3 和 Vue 3，以及 Element-Plus 等主
   流技术栈，实时更新。
 
-- **🔐 安全认证**: 结合 Spring Security 和 JWT 提供安全、无状态、分布
-  式友好的身份验证和授权机制。
+- **🔐 安全认证**: 结合 Spring Security 和 JWT 提供安全、无状态、分布式的身份验证和授权机制。
 
 - **🔑 权限管理**: 基于 RBAC 模型，实现细粒度的权限控制，涵盖接口方法
   和按钮级别。
@@ -58,4 +57,4 @@ dir:
 
 ## 问题反馈
 
-如果在使用过程中遇到问题或 bug，请[提交 issue]https://gitee.com/youlaiorg/youlai-boot/issues)。如有使用上的疑问，可以通过微信(haoxianrui)或[加入交流群](../about/README.md)进行反馈。
+如在使用中遇到问题或发现 bug，建议通过[提交 issue](https://gitee.com/youlaiorg/youlai-boot/issues)反馈，或通过微信（haoxianrui）及[加入交流群](../about/README.md)联系我们。
