@@ -2,18 +2,21 @@
 title: 项目启动
 icon: play
 dir:
-  order: 1
   collapsible: false
+  expanded: false
+  order: 1
   link: true
 category:
   - 项目启动
 ---
 
 ::: tip
-本文档介绍如何启动项目 [vue3-element-admin](https://gitee.com/youlaiorg/vue3-element-admin)。
+本文档介绍如何启动项目 [vue-uniapp-template](https://gitee.com/youlaiorg/vue-uniapp-template)。
 :::
 
-## 安装 Node
+## 环境准本
+
+### 安装 Node
 
 > `Node.js` 是运行 JavaScript 代码的环境，也是 `npm` 包管理器的依赖。
 
@@ -32,32 +35,35 @@ node -v
 
 
 
-## 安装 VSCode
+### 安装 VSCode
 
 >`VSCode` 是一款非常流行的代码编辑器，特别适合前端开发。
 
 访问 [Visual Studio Code 官方网站](https://code.visualstudio.com/) ,根据你的操作系统下载相应版本的 `VSCode` ,下载完成后，双击安装程序并按照提示完成安装。
 
 
- 
-## 下载代码
 
-VSCode 导入 Git 项目，输入项目地址：`https://gitee.com/youlaiorg/vue3-element-admin.git` ，然后点击 Clone。
-
-            
 ## 启动项目
 
+### h5端
+
 ```bash
-
-# 安装 pnpm
-npm install pnpm -g
-
-# 设置镜像源(可忽略)
-pnpm config set registry https://registry.npmmirror.com
-
 # 安装依赖
 pnpm install
 
-# 启动运行
-pnpm run dev
+# 启动项目
+pnpm run dev:h5
 ```
+
+### 小程序端
+
+
+在 HBuilder X 中，点击 `运行`→`运行到小程序模拟器`→`微信开发者工具`。
+
+![](https://www.youlai.tech/storage/blog/2025/02/24/df85a41c46bd41d18a67400867cdd50e.png)
+
+
+项目编译完成后，微信开发者工具会自动启动并呈现页面。
+
+![](https://www.youlai.tech/storage/blog/2025/02/24/9c2ceb3651a446178a8b9fc6a34188b1.png)
+
