@@ -8,9 +8,7 @@ category:
 
 ## 项目捐赠
 
-如果您觉得项目对您有所帮助，可以考虑请开发者喝
-杯<img width="24" height="16" src="/assets/image/drink.png"/>来支持我
-们！
+如果您觉得项目对您有所帮助，可以考虑请开发者喝杯<img width="24" height="16" src="/assets/image/drink.png"/>来支持我们！
 
 <img width="140"  src="/assets/image/alipay.jpg">
 
