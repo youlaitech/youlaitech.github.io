@@ -8,7 +8,6 @@ dir:
   link: true
 ---
 
-
 <div align="center">
    <img alt="vue-uniapp-template" width="100" height="100" src="/assets/image/youlai-logo.jpg">
    <h3>vue-uniapp-template</h3>
@@ -17,7 +16,6 @@ dir:
 ## 项目简介
 
 [vue-uniapp-template](https://gitee.com/youlaiorg/vue-uniapp-template) 基于 Uni-App、Vue3 和 TypeScript 构建的灵活跨平台移动端模板，使用 VSCode 和 CLI 高效开发模式。
-
 
 ![](https://www.youlai.tech/storage/blog/vue-uniapp-template.jpg)
 
@@ -33,11 +31,11 @@ dir:
    ```
 3. 安装依赖：
    ```bash
-   npm install
+   pnpm install
    ```
 4. 运行项目：
    ```bash
-   npm run dev
+   pnpm run dev
    ```
 
 ## 功能特性
@@ -53,10 +51,14 @@ dir:
 1. **项目结构**：
    ```
    ├── src
+   │   ├── api         # API 请求相关
    │   ├── assets      # 静态资源
    │   ├── components  # 公共组件
+   │   ├── directive   # 自定义指令
    │   ├── pages       # 页面文件
-   │   ├── store       # Vuex 状态管理
+   │   ├── plugins     # 插件
+   │   ├── store       # Pinia 状态管理
+   │   ├── types       # TypeScript 类型定义
    │   ├── utils       # 工具函数
    │   └── App.vue     # 入口文件
    ├── static          # 静态文件
@@ -69,6 +71,6 @@ dir:
    - 提交信息遵循 Commitizen 规范。
 
 3. **常用命令**：
-   - `npm run dev`：运行开发环境。
-   - `npm run build`：打包项目。
-   - `npm run lint`：代码检查。
+   - `pnpm run dev`：运行开发环境。
+   - `pnpm run build`：打包项目。
+   - `pnpm run lint`：代码检查。

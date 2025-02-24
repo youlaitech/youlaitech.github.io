@@ -12,7 +12,7 @@ category:
 
 <img width="140"  src="/assets/image/alipay.jpg">
 
-## 付费支持
+## 付费服务
 
 ::: tip
 

@@ -16,7 +16,7 @@ dir:
 
 ## 项目简介
 
-[youlai-boot](https://gitee.com/youlaiorg/youlai-boot)基于 JDK 17、Spring Boot 3、Spring Security6、JWT、Redis、Mybatis-Plus、Knife4j、Vue 3、Element-Plus 构建的前后端分离单体权限管理系统。
+[youlai-boot](https://gitee.com/youlaiorg/youlai-boot)基于 JDK 17、Spring Boot 3、Spring Security 6、JWT、Redis、Mybatis-Plus、Knife4j、Vue 3、Element-Plus 构建的前后端分离单体权限管理系统。
 
 ## 项目特色
 
