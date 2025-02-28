@@ -17,9 +17,9 @@ category:
 
 ## 配置 Token 有效期
 
-application-*.yml 修改 JWT Token 有效期 ，  
+找到 `src/main/resources/application-*.yml` 修改 JWT Token 有效期 ，  
 
-```yaml {4-6} title="application-dev.yml"
+```yaml {4,6} title="application-dev.yml"
 security:
   jwt:
     # 访问令牌 有效期(单位：秒)，默认 1 小时，-1 表示永不过期
