@@ -15,6 +15,20 @@ category:
 :::
 
 
+## 配置 Token 有效期
+
+找到 `src/main/resources/application-*.yml` 修改 JWT Token 有效期 ，  
+
+```yaml {4,6} title="application-dev.yml"
+security:
+  jwt:
+    # 访问令牌 有效期(单位：秒)，默认 1 小时，-1 表示永不过期
+    access-token-time-to-live: 3600
+    # 刷新令牌有效期(单位：秒)，默认 7 天，-1 表示永不过期
+    refresh-token-time-to-live: 604800
+```
+
+
 ## 配置 MySQL 
 
 在 `application-dev.yml` 文件中，将 MySQL 的连接信息替换为本地环境配置，例如数据库地址、用户名和密码。默认端口是 `3306`，默认用户名和密码是 `root/123456`，请根据实际情况修改。
