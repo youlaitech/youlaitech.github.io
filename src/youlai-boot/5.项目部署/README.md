@@ -21,10 +21,8 @@ category:
 
 安装并启动 FinalShell: [下载地址](https://www.hostbuf.com/t/988.html)。新建连接，连接到已安装的虚拟机。
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/a31e078da800416a84e2c2bd553f5161.png)
+![](https://www.youlai.tech/storage/blog/2025/03/04/a31e078da800416a84e2c2bd553f5161.png)
  
-
-
 
 ## 安装  Docker
 
