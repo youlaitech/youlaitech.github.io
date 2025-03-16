@@ -5,4 +5,5 @@ export default sidebar({
   "/youlai-boot/": "structure",
   "/vue-uniapp-template/": "structure",
   "/youlai-mall/": "structure",
+  "/youlai-nest/": "structure",
 });
