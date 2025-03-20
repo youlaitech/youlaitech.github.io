@@ -38,7 +38,24 @@ com.company.project
 
 
 ## 命名规范
-### 类/接口命名
+### 接口命名
+
+
+| 操作类型       | HTTP方法 | 推荐动词         | 示例路径                |
+|---------------|----------|------------------|-------------------------|
+| 获取单个       | GET      | get              | /users/{id}             |
+| 获取列表       | GET      | list             | /users                  |
+| 分页查询       | GET      | search           | /users/search           |
+| 创建资源(add)  | POST     | create           | /users                  |
+| 全量更新(edit) | PUT      | update           | /users/{id}             |
+| 局部更新       | PATCH    | partialUpdate    | /users/{id}/email       |
+| 删除资源       | DELETE   | delete           | /users/{id}             |
+| 关联添加       | POST     | attach           | /teams/{id}/members     |
+| 批量操作       | POST     | batch[Action]    | /products/batch-delete  |
+
+
+
+### 对象命名
 | 类型          | 模式                | 示例               |
 |---------------|---------------------|--------------------|
 | REST 控制器   | `XxxController`     | `UserController`   |
@@ -56,66 +73,43 @@ com.company.project
 | 创建操作              | `createXxx`             | `createUser`            |
 | 更新操作              | `updateXxx`             | `updateUser`       |
 
+
+### 按钮权限标识命名
+
+| 权限标识                  | 模块   | 资源   | 操作            | 适用场景                | 示例按钮文案       |
+|---------------------------|--------|--------|-----------------|-------------------------|--------------------|
+| `sys:user:query`          | sys    | user   | query           | 数据查询/过滤           | 搜索用户、查看列表 |
+| `sys:user:add`            | sys    | user   | add             | 新增数据                | 新建用户、添加账号 |
+| `sys:user:edit`           | sys    | user   | edit            | 修改已有数据            | 编辑资料、修改权限 |
+| `sys:user:delete`         | sys    | user   | delete          | 删除数据                | 删除用户、移除账号 |
+| `sys:user:import`         | sys    | user   | import          | 批量数据导入            | 导入用户、批量新增 |
+| `sys:user:export`         | sys    | user   | export          | 数据导出为文件          | 导出Excel、下载报表|
+| `sys:user:reset-password` | sys    | user   | reset-password  | 密码重置操作            | 重置密码、强制修改 |
+
 ---
 
 ## 注释规范
-###  Swagger 接口文档
+
+### 类注释标准
 ```java
-@Operation(summary = "用户登录", description = "通过手机号+密码进行身份认证")
-@PostMapping("/login")
-public Result<UserVO> login(
-    @Parameter(description = "登录表单", required = true) 
-    @RequestBody LoginForm form) {
-    // ...
-}
+/**
+ * 用户控制层
+ * 
+ * @author Ray.Hao
+ * @since 2.9.0
+ * 
+ * 2.9.1 - 2023-08-01 增加删除保护机制
+ * 2.9.0 - 2023-07-15 初始版本
+ */
 ```
 
-### 复杂逻辑注释
-```java
-// 使用三斜线注释标记待优化点
-/// TODO: 2023-10-01 缓存穿透风险，需增加空值缓存
-public UserVO getUserById(Long userId) {
-    // ...
-}
-```
+
+| 要素            | 规范要求                                                                 |
+|-----------------|--------------------------------------------------------------------------|
+| **类描述**      | 首行简明描述类职责，使用`[业务模块]+[层级类型]`结构（如：订单服务层）       |
+| **@author**     | 必须标注，多人维护时分行标注（例：`@author Ray.Hao @author Han.Helena`） |
+| **@since**      | 必须标注，格式为`主版本.次版本.修订号`（如Spring式版本号）                 |
+| **空行规则**    | 类描述与标签之间必须空一行                                                |
 
 ---
 
-## 异常处理规范
-###   自定义异常体系
-```java
-// 业务异常基类
-public class BusinessException extends RuntimeException {
-    private final ErrorCode errorCode;
-    
-    public BusinessException(ErrorCode errorCode) {
-        super(errorCode.getMessage());
-        this.errorCode = errorCode;
-    }
-}
-
-// 细分异常类型
-public class OrderNotFoundException extends BusinessException {
-    public OrderNotFoundException() {
-        super(ErrorCode.ORDER_NOT_FOUND);
-    }
-}
-```
-
-###  全局异常处理
-```java
-@RestControllerAdvice
-public class GlobalExceptionHandler {
-    
-    @ExceptionHandler(BusinessException.class)
-    public Result<Void> handleBusinessException(BusinessException e) {
-        return Result.fail(e.getErrorCode());
-    }
-    
-    @ExceptionHandler(MethodArgumentNotValidException.class)
-    public Result<Void> handleValidationException(MethodArgumentNotValidException e) {
-        String message = e.getBindingResult().getAllErrors().get(0).getDefaultMessage();
-        return Result.fail(ErrorCode.PARAM_ERROR.getCode(), message);
-    }
-}
-```
