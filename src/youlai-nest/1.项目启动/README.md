@@ -12,41 +12,86 @@ category:
 
 ## 环境准备
 
-在开始之前，请确保你的开发环境满足以下要求：
+请确保安装以下组件并满足版本要求：
 
-1. **Node.js 环境**
+### 安装 Node（≥ v18.x）
+
+**作用**：JavaScript 运行环境 + npm 包管理器  
+**安装步骤**：
+1. 访问 [Node.js 官方下载页](https://nodejs.org/zh-cn/download/prebuilt-installer)
+2. **选择 LTS 版本**（推荐 v20.18.0+）  
+   ![Node.js下载页面](https://i-blog.csdnimg.cn/direct/50053bf23e6344098f6c09d839c8981f.png)
+3. 双击安装包完成安装
+4. 验证安装（命令行执行）：  
    ```bash
-   # 检查 Node.js 版本（需要 >= 18.x）
-   node --version
+   node -v
    ```
+   ![版本验证结果](https://i-blog.csdnimg.cn/direct/c0a3901ca8274491b35ddd17c2db1d78.png)
 
-2. **MongoDB 数据库**
-   - 安装 MongoDB（>= 7.x）
-   - 启动 MongoDB 服务
-   ```bash
-   # macOS 使用 brew 安装
-   brew install mongodb-community
-   brew services start mongodb-community
-   ```
 
-3. **Redis 服务**
-   - 安装 Redis（>= 7.x）
-   - 启动 Redis 服务
-   ```bash
-   # macOS 使用 brew 安装
-   brew install redis
-   brew services start redis
-   ```
+### 安装 VSCode
 
-4. **pnpm 包管理器**
-   ```bash
-   # 全局安装 pnpm
-   npm install -g pnpm
-   ```
+**作用**：代码编辑器  
+**安装步骤**：
+1. 访问 [VSCode 官网](https://code.visualstudio.com/)
+2. 根据系统下载安装包（Windows/macOS/Linux）
+3. 双击安装包按提示完成安装
 
-## 快速开始
+### 安装 MongoDB（≥ v7.0） 
 
-### 1. 克隆项目
+**作用**：NoSQL 数据库  
+**安装参考**： [Docker 部署 MongoDB ](https://blog.csdn.net/u013737132/article/details/144065439) 
+
+### 安装 Redis
+
+**作用**：缓存数据库  
+**安装方案**：
+- 🔧 [Windows 安装 Redis](https://blog.csdn.net/u013737132/article/details/133410293)
+- 🐳 [Docker 安装 Redis](https://blog.csdn.net/u013737132/article/details/130439335)  
+
+
+## 初始化数据库
+
+### 方法一：命令行导入
+
+MongoDB 脚本放在项目的根目录 mongodb 下 ，复制到指定目录下(./mongodb/ ), 然后执行以下命令还原数据库：
+
+```bash
+mongorestore -d youlai_nest ./mongodb/
+```
+### 方法二：Navicat 可视化导入
+
+#### 下载工具包
+
+1. 访问 [MongoDB Tools下载页](https://www.mongodb.com/try/download/database-tools)
+2. 选择Windows系统的ZIP压缩包  
+   ![](https://www.youlai.tech/storage/blog/image-20250312155531271.png)
+3. 将下载的ZIP文件解压到**电脑任意位置**，示例路径：D:\mongodb-tools）  
+  ![](https://www.youlai.tech/storage/blog/2025/03/30/20250330163850.png)
+
+#### 创建数据库
+1. 打开Navicat，连接到MongoDB数据库
+2. 右键点击连接，选择「新建数据库」  
+3. 输入数据库名称 `youlai_nest`，点击「确定」
+  
+#### 配置还原工具
+1. 右键新建的数据库选择「MongoRestore」  
+   ![](https://www.youlai.tech/storage/blog/image-20250317102456684.png)
+2. 点击文件夹图标，选择解压目录中的 `mongorestore.exe`  
+   （示例路径：D:\mongodb-tools\bin\mongorestore.exe）
+ ![](https://www.youlai.tech/storage/blog/image-20250317102706054.png)
+#### 导入数据文件
+1. 选择项目中的脚本目录（项目根目录/mongodb）
+2. 点击「开始」执行导入操作  
+   ![](https://www.youlai.tech/storage/blog/image-20250317102831303.png)
+   ![](https://www.youlai.tech/storage/blog/2025/03/30/20250330182831.png)
+3. 验证导入结果
+   ![](https://www.youlai.tech/storage/blog/2025/03/31/20250331235034.png)
+
+
+## 项目启动
+
+### 1. 获取代码
 ```bash
 git clone https://gitee.com/youlaiorg/youlai-nest.git
 cd youlai-nest
@@ -54,62 +99,22 @@ cd youlai-nest
 
 ### 2. 安装依赖
 ```bash
+# 安装 pnpm（若已安装可跳过）
+npm install -g pnpm
+
+# 配置国内镜像加速（可选）
+pnpm config set registry https://registry.npmmirror.com
+
+# 安装项目依赖
 pnpm install
 ```
 
-### 3. 配置环境变量
-
-1. 复制环境变量模板文件
-```bash
-cp .env.example .env
-```
-
-2. 修改 `.env` 文件中的配置：
-```env
-# MongoDB配置
-MONGODB_URI=mongodb://localhost:27017/youlai
-
-# Redis配置
-REDIS_HOST=localhost
-REDIS_PORT=6379
-
-# JWT配置
-JWT_SECRET=your-secret-key
-JWT_EXPIRES_IN=7d
-
-# 阿里云OSS配置（如需使用文件上传功能）
-OSS_REGION=oss-cn-hangzhou
-OSS_ACCESS_KEY_ID=your-access-key
-OSS_ACCESS_KEY_SECRET=your-secret-key
-OSS_BUCKET=your-bucket
-```
-
-### 4. 初始化数据库
-
-1. 导入初始数据（在 mongodb 目录下）
-```bash
-mongorestore -d youlai ./mongodb/
-```
-
-
-### 5. 启动项目
-
-开发模式
+### 3. 启动服务
 ```bash
 pnpm run start:dev
 ```
 
-生产模式
-```bash
-# 构建项目
-pnpm run build
+### 4. 接口验证
+访问以下地址测试服务：  
+[http://localhost:9090/apiDoc](http://localhost:9090/apiDoc)  
 
-# 启动服务
-pnpm run start:prod
-```
-
-### 6. 访问服务
-
-- 接口文档：http://localhost:8989/apiDoc
-- 默认管理员账号：admin
-- 默认密码：123456 
